@@ -4,7 +4,6 @@
 This repo aim to use [acme.sh](https://github.com/acmesh-official/acme.sh) in Aliyun FC to issue/renew the certificates of fc with dns-01 challenge.
 
 ## Prerequisite
-- clone acme.sh
 - An account with access key in aliyun, with FCFullAccess and DNSFullAccess
 - Your email address (to apply for a certificate)
 - FC Python3.9 runtime
@@ -16,3 +15,6 @@ This repo aim to use [acme.sh](https://github.com/acmesh-official/acme.sh) in Al
 - ACCOUNT_EMAIL
 - End_Point (ACCOUNT-ID.REGION_NAME.fc.aliyuncs.com)
 - Domain (*.example.com)
+
+## Tips
+End of line should be CRLF
