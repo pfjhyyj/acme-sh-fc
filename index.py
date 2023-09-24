@@ -57,6 +57,7 @@ class RenewCertificate:
             private_key=key
         )
         update_custom_domain_request = fc__open_20210406_models.UpdateCustomDomainRequest(
+            protocol='HTTPS',
             cert_config=cert_config
         )
         runtime = util_models.RuntimeOptions()
